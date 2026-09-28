@@ -1,78 +1,57 @@
-/* Home Page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.hero {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     text-align: center;
-    padding: 50px 30px;
 }
 
-.hero-text {
-    max-width: 750px;
-    margin: auto;
+header {
+    background-color: #222;
+    color: white;
+    padding: 50px 20px;
 }
 
-.welcome {
-    color: #1f3c88;
-    font-weight: bold;
-    letter-spacing: 2px;
+header h1 {
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
-.hero h2 {
+header p {
+    font-size: 18px;
+    margin: 8px;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+main {
+    padding: 80px 20px;
+}
+
+main h2 {
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-.hero p {
+main p {
     font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.buttons {
-    margin-top: 25px;
-}
-
-.button {
-    display: inline-block;
-    background-color: #1f3c88;
-    color: white;
-    text-decoration: none;
-    padding: 12px 22px;
-    margin: 5px;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
-.button:hover {
-    background-color: #162447;
-}
-
-/* Cards */
-
-.cards {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.card {
-    flex: 1;
-    text-align: center;
-}
-
-.card h3 {
-    color: #1f3c88;
-    margin-bottom: 10px;
-}
-
-/* Mobile */
-
-@media (max-width: 700px) {
-
-    .cards {
-        flex-direction: column;
-    }
-
-    .hero h2 {
-        font-size: 26px;
-    }
 }
